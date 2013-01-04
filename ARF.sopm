@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>ARF-PostMasterFilter</Name>
-    <Version>1.0.0</Version>
-    <Framework>3.0.x</Framework>
+    <Version>1.1.0</Version>
+    <Framework>3.1.x</Framework>
+    <Framework>3.2.x</Framework>
     <Vendor>Jens Bothe</Vendor>
     <URL>http://blog.otrs.org/</URL>
     <ModuleRequired>Email::ARF::Report</ModuleRequired>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007</License>
+    <ChangeLog Version="1.1.0" Date="2013-01-04 02:30:00">Version for Dynamic Field based OTRS versions</ChangeLog>
     <ChangeLog Version="1.0.0" Date="2011-12-15 05:00:00">Initial</ChangeLog>
     <Description Lang="en">A mail Filter for ARF Messages</Description>
     <IntroInstall Type="pre" Lang="en" Title="More Info!">Please read http://en.wikipedia.org/wiki/Abuse_Reporting_Format before using this package. The package also requires a installed Email::ARF::Report module. THIS MODULE IS A PROOF OF CONCEPT MODULE, USE ON OWN RISK!!</IntroInstall>

@@ -9,7 +9,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007</License>
     <ChangeLog Version="1.0.0" Date="2011-12-15 05:00:00">Initial</ChangeLog>
     <Description Lang="en">A mail Filter for ARF Messages</Description>
-    <IntroInstall Type="pre" Lang="en" Title="More Info!">Please read http://en.wikipedia.org/wiki/Abuse_Reporting_Format before using this package. The package also requires a installed Email::ARF::Report module. THIS MODULE IS A PROOF OF CONCEPT MODULE, USE ON RISK!!</IntroInstall>
+    <IntroInstall Type="pre" Lang="en" Title="More Info!">Please read http://en.wikipedia.org/wiki/Abuse_Reporting_Format before using this package. The package also requires a installed Email::ARF::Report module. THIS MODULE IS A PROOF OF CONCEPT MODULE, USE ON OWN RISK!!</IntroInstall>
     <BuildDate>?</BuildDate>
     <BuildHost>?</BuildHost>
     <Filelist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="PostMaster::PreFilterModule###1-ARF" Required="0" Valid="1">
+        <Description Lang="en">mail interface to work with ARF Mails.</Description>
+        <Group>ARF</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+            <Item Key="Module">Kernel::System::PostMaster::Filter::ARF</Item>
+				<Item Key="SenderType">system</Item>
+				<Item Key="ArticleType">note-internal</Item>
+            			<Item Key="FromAddressRegExp">scomp@aol.net</Item>
+				<Item Key="ReportFeedbackType">1</Item>
+				<Item Key="ReportSourceIP">2</Item>
+				<Item Key="OrigTo">3</Item>            
+				<Item Key="OrigFrom">4</Item>            
+				<Item Key="OrigSubject">5</Item>            
+				<Item Key="OrigMessageID">6</Item>            
+             </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
